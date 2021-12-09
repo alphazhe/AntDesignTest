@@ -10,6 +10,7 @@
 
 import React from 'react';
 import {SafeAreaView, Text, View} from 'react-native';
+import {Button} from '@ant-design/react-native';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <View>
         <Text style={{fontSize: 100}}>Hello world!</Text>
       </View>
+      <Button>Test</Button>
     </SafeAreaView>
   );
 };
